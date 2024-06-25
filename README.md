@@ -1,4 +1,4 @@
-# sort-create-sql
+# sort-create-table-sql
 
 To install dependencies:
 
@@ -6,10 +6,16 @@ To install dependencies:
 bun install
 ```
 
+To test:
+
+```
+bun test
+```
+
 To run:
 
 ```bash
-bun run index.ts
+bun start
 ```
 
-This project was created using `bun init` in bun v1.1.17. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+This project is using bun v1.1.17+
